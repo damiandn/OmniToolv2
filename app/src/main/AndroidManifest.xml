@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MolBioMain"></activity>
+        <activity android:name=".ImagingMain"></activity>
+        <activity android:name=".UtilsMain"></activity>
+        <activity android:name=".MolBio.PCR"></activity>
     </application>
 
 </manifest>
