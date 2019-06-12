@@ -11,5 +11,19 @@ public class PCR extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.molbiopcr);
+        if (savedInstanceState != null) {
+            //grab the saved values from the bundle and put them back in the new fields
+            //ie savedInstanceState.getString(STRING_KEY);
+        }
     }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        //save the values to the bundle
+        //ie  outState.putString(STRING_KEY, value);
+        //outState.putInt(STATE_LIMIT, feedLimit);
+        super.onSaveInstanceState(outState);
+    }
+
+
 }
